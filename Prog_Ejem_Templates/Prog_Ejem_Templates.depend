@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1539954040 source:d:\cursocpp_indra\prog_ejem_templates\main.cpp
+	<iostream>
+	<math.h>
+	"EjemploLista.h"
+	"Pila.h"
+
+1539950867 d:\cursocpp_indra\prog_ejem_templates\include\ejemplolista.h
+	<list>
+	<iostream>
+
+1539952638 source:d:\cursocpp_indra\prog_ejem_templates\src\ejemplolista.cpp
+	"EjemploLista.h"
+	"stdlib.h"
+
+1539954285 source:d:\cursocpp_indra\prog_ejem_templates\src\pila.cpp
+	"Pila.h"
+
+1539954283 d:\cursocpp_indra\prog_ejem_templates\include\pila.h
+	<iostream>
+
