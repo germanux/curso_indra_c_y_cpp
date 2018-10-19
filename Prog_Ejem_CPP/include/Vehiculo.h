@@ -23,6 +23,7 @@ class Vehiculo
         bool Apagar();
         bool Acelerar(float fuerza);
         bool Frenar(float fuerza);
+        virtual bool Repostar(float) = 0;
 
         virtual void Mostrar() {
             cout << "Vehiculo de " << ruedas << " ruedas a "

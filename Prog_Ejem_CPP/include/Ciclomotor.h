@@ -23,6 +23,8 @@ class Ciclomotor : public Vehiculo
          */
         void Setmanillas(float val) { manillas = val; }
 
+        bool Repostar(float gasolina);
+
     protected:
 
     private:

@@ -13,7 +13,7 @@ void vehiculosYCoches();
 int main()
 {
 	cout << "Hola! " << endl;
-	// vehiculos();
+	vehiculos();
     // coches();
     vehiculosYCoches();
 	return 0;
@@ -23,6 +23,7 @@ void vehiculosYCoches() {
     Vehiculo *vehiculo = new Coche(8);
     vehiculo->Encender();
     vehiculo->Acelerar(70);
+    vehiculo->Repostar(10);
     vehiculo->Mostrar();
     vehiculo->Vehiculo::Mostrar();
     Ciclomotor *cic = new Ciclomotor(2);
@@ -30,9 +31,10 @@ void vehiculosYCoches() {
 }
 
 void vehiculos() {
-	Vehiculo *veh = new Vehiculo(4);
+	Vehiculo *veh = new Ciclomotor(4);
 	veh->Encender();
 	veh->Acelerar(60);
+	veh->Repostar(45);
 	veh->Mostrar();
 	delete veh;
 }
