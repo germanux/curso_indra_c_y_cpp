@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1539765803 source:d:\cursocpp_indra\prog_ejem_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Prog_Ejem_1/fun_tipos.h"
+	"mem_dinam.h"
+	"ges_alumnos.h"
+
+1539693709 source:d:\cursocpp_indra\prog_ejem_1\fun_tipos.c
+
+1539691319 d:\cursocpp_indra\prog_ejem_1\fun_tipos.h
+
+1539693179 d:\cursocpp_indra\prog_ejem_1\mem_dinam.h
+
+1539693951 source:d:\cursocpp_indra\prog_ejem_1\mem_dinam.c
+	<stdio.h>
+	<stdlib.h>
+	"mem_dinam.h"
+
+1539778546 source:d:\cursocpp_indra\prog_ejem_1\ges_alumnos.c
+	"ges_alumnos.h"
+
+1539778360 d:\cursocpp_indra\prog_ejem_1\ges_alumnos.h
+	"includes.h"
+
+1539773459 d:\cursocpp_indra\prog_ejem_1\estructuras.h
+
+1539778711 d:\cursocpp_indra\prog_ejem_1\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"asignatura.h"
+	"lista_asignaturas.h"
+	"ges_alumnos.h"
+
+1539777888 d:\cursocpp_indra\prog_ejem_1\asignatura.h
+	"includes.h"
+
+1539778922 d:\cursocpp_indra\prog_ejem_1\lista_asignaturas.h
+	"includes.h"
+
+1539778473 source:d:\cursocpp_indra\prog_ejem_1\lista_asignaturas.c
+	"lista_asignaturas.h"
+
