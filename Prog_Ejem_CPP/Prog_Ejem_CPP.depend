@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1539867515 source:d:\cursocpp_indra\prog_ejem_cpp\main.cpp
+	<iostream>
+	"include/Coche.h"
+	"include/Vehiculo.h"
+	"include/Ciclomotor.h"
+
+1539864520 source:d:\cursocpp_indra\prog_ejem_cpp\src\coche.cpp
+	"../include/Coche.h"
+
+1539863417 d:\cursocpp_indra\prog_ejem_cpp\include\coche.h
+	<iostream>
+	"Vehiculo.h"
+
+1539860656 source:d:\cursocpp_indra\prog_ejem_cpp\src\vehiculo.cpp
+	"../include/Vehiculo.h"
+
+1539864147 d:\cursocpp_indra\prog_ejem_cpp\include\vehiculo.h
+	<iostream>
+
+1539867669 d:\cursocpp_indra\prog_ejem_cpp\include\ciclomotor.h
+	"../include/Vehiculo.h"
+
